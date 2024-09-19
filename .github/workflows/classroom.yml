@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test 1
         setup-command: ''
-        command: 'run: javac Main.java && java Main'
+        command: javac Main.java && java Main
         input: ''
         expected-output: |-
           5
