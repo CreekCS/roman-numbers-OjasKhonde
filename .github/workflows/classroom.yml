@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test 1
         setup-command: ''
-        command: java ..RomansRunner.java
+        command: java //RomansRunner.java
         input: ''
         expected-output: |-
           5
